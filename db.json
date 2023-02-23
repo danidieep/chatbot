@@ -1,0 +1,1694 @@
+[
+  {
+    "ref": "c248746c-6d7f-47f2-815b-f3da487b63d2",
+    "keyword": "545c2f612fdf88230d90db1f05e49b7a",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493813990948",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "061b6757-45d7-4ed2-a949-13dc0d7c8cde",
+    "keyword": "c22e4066d61d81721def9b25d8a397e8",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493813990948",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_81d32dbf-5320-47ad-b9c1-d6a9441c972e",
+    "keyword": "key_5e5b11a6-f648-456a-990a-96bb5d08ec1c",
+    "answer": "🙌 Hola bienvenido a *Carnave*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e7dbf71b6588cd7d58f0ac76a30be33e",
+    "from": "5493813990948"
+  },
+  {
+    "ref": "ans_0242a244-c3bf-44e8-930c-74a62bf56adb",
+    "keyword": "ans_81d32dbf-5320-47ad-b9c1-d6a9441c972e",
+    "answer": "*Pata muslo x 3kg* el precio es: $1290\n\n*8 medallones vacunos* el precio es: $849\n\n*Bondiola x 3kg* el precio es: $1399\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8cee08a2-60a7-449b-b02b-2728caf98e6d",
+          "keyword": [
+            "pedir oferta",
+            "oferta"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "e9bb8bb36a7fe4d2481a93ff322a0eba"
+        },
+        {
+          "ref": "ans_13b4ae6f-5741-481f-922d-7c310add5a3f",
+          "keyword": "key_8cee08a2-60a7-449b-b02b-2728caf98e6d",
+          "answer": "selecciona el nombre de la oferta que te interesa:",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Pata muslo"
+              },
+              {
+                "body": "8 medallones vacunos"
+              },
+              {
+                "body": "bondiola"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_282ae678-cbcf-465c-84a8-23db1387281b",
+                "keyword": [
+                  "Pata muslo"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "3562be22d3182da801a310752e6241b6"
+              },
+              {
+                "ref": "ans_09d3130d-9230-41f3-ac63-84b96306f865",
+                "keyword": "key_282ae678-cbcf-465c-84a8-23db1387281b",
+                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "06c50eaefe62cbbd75d51a28877f2017"
+              },
+              {
+                "ref": "ans_6fff4c66-b270-4902-b74a-5e612b22f87c",
+                "keyword": "ans_09d3130d-9230-41f3-ac63-84b96306f865",
+                "answer": "Genial! Tu precio final por este producto es :0",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "88054ed814c3589ac20a83cc30d24a94"
+              },
+              {
+                "ref": "ans_c7003d20-2f2d-4eba-a1c5-3fb06276b4f9",
+                "keyword": "ans_6fff4c66-b270-4902-b74a-5e612b22f87c",
+                "answer": "desea seguir comprando o ir a pagar?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "pagar"
+                    },
+                    {
+                      "body": "seguir"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "keyword": [
+                        "pago",
+                        "pagar",
+                        "ir a pagar"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+                    },
+                    {
+                      "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                      "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "answer": "por que medio realizara el pago?",
+                      "options": {
+                        "media": null,
+                        "buttons": [
+                          {
+                            "body": "efectivo"
+                          },
+                          {
+                            "body": "online"
+                          }
+                        ],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [
+                          {
+                            "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "keyword": [
+                              "efectivo"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                          },
+                          {
+                            "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                            "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "answer": "Lo espero con los billetes!😃",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                          },
+                          {
+                            "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "keyword": [
+                              "online"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                          },
+                          {
+                            "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                            "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                          }
+                        ],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "9c0b6e3bc4a52ba43f5e9fa75194a10f"
+              },
+              {
+                "ref": "key_87c935f6-78cc-40e8-b38e-a9d96dd8bfdf",
+                "keyword": [
+                  "8 medallones vacunos"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "73a1fffb7d6bd9250e1bc83c722faf18"
+              },
+              {
+                "ref": "ans_6426bb69-dd5a-4756-82ba-2ac9cd68830a",
+                "keyword": "key_87c935f6-78cc-40e8-b38e-a9d96dd8bfdf",
+                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "9aa1f65d57e9f8667c0a62c3e18b79ba"
+              },
+              {
+                "ref": "ans_6759583a-6425-4a02-b7df-4334daf52d2b",
+                "keyword": "ans_6426bb69-dd5a-4756-82ba-2ac9cd68830a",
+                "answer": "Genial! Tu precio final por este producto es :0",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "70864aeab25e8510f2df2301550d0004"
+              },
+              {
+                "ref": "ans_af669487-8297-4752-93f2-d9a637c041c4",
+                "keyword": "ans_6759583a-6425-4a02-b7df-4334daf52d2b",
+                "answer": "desea seguir comprando o ir a pagar?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "pagar"
+                    },
+                    {
+                      "body": "seguir"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "keyword": [
+                        "pago",
+                        "pagar",
+                        "ir a pagar"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+                    },
+                    {
+                      "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                      "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "answer": "por que medio realizara el pago?",
+                      "options": {
+                        "media": null,
+                        "buttons": [
+                          {
+                            "body": "efectivo"
+                          },
+                          {
+                            "body": "online"
+                          }
+                        ],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [
+                          {
+                            "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "keyword": [
+                              "efectivo"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                          },
+                          {
+                            "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                            "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "answer": "Lo espero con los billetes!😃",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                          },
+                          {
+                            "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "keyword": [
+                              "online"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                          },
+                          {
+                            "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                            "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                          }
+                        ],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "351e4f3a9d84ad624329c996a8089e7f"
+              },
+              {
+                "ref": "key_5a3e1bdc-d979-40b0-8e85-9e7ca58a5771",
+                "keyword": [
+                  "Bondiola"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "e6f6d8ab3abcd2408ba19654bb82b8f6"
+              },
+              {
+                "ref": "ans_fddf1b2f-bb66-4905-b385-e9e7bb283eed",
+                "keyword": "key_5a3e1bdc-d979-40b0-8e85-9e7ca58a5771",
+                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "d48b5f201da02c0f150799f42fe79f1a"
+              },
+              {
+                "ref": "ans_fc29ea99-5543-4329-81fd-90993af201c0",
+                "keyword": "ans_fddf1b2f-bb66-4905-b385-e9e7bb283eed",
+                "answer": "Genial! Tu precio final por este producto es :0",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "f6d25dfd07e58acc165ef9180edcb80c"
+              },
+              {
+                "ref": "ans_4eb2a5f6-d476-4a7b-82af-7ff2b17e1be1",
+                "keyword": "ans_fc29ea99-5543-4329-81fd-90993af201c0",
+                "answer": "desea seguir comprando o ir a pagar?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "pagar"
+                    },
+                    {
+                      "body": "seguir"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "keyword": [
+                        "pago",
+                        "pagar",
+                        "ir a pagar"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+                    },
+                    {
+                      "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                      "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "answer": "por que medio realizara el pago?",
+                      "options": {
+                        "media": null,
+                        "buttons": [
+                          {
+                            "body": "efectivo"
+                          },
+                          {
+                            "body": "online"
+                          }
+                        ],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [
+                          {
+                            "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "keyword": [
+                              "efectivo"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                          },
+                          {
+                            "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                            "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "answer": "Lo espero con los billetes!😃",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                          },
+                          {
+                            "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "keyword": [
+                              "online"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                          },
+                          {
+                            "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                            "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                          }
+                        ],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "7762869cd2778f752e19fb8ba983187a"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b6a0070ba09fba1c2492de1c8e0f706c"
+        },
+        {
+          "ref": "key_1c5effea-909f-4d49-b50e-4470a4b2c1ac",
+          "keyword": [
+            "listado"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b689b83244d4dde90ff3e839eda31595"
+        },
+        {
+          "ref": "ans_352671a0-4907-4f49-88aa-514f888e3ac0",
+          "keyword": "key_1c5effea-909f-4d49-b50e-4470a4b2c1ac",
+          "answer": "",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b1eb3e97d9dd525c1cd9084b30cdbf98"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "5189058da6303000b51bbb05d66b8f9d",
+    "from": "5493813990948"
+  },
+  {
+    "ref": "ans_d6c7813d-d0d0-42a3-bb2d-ec4175d264a6",
+    "keyword": "ans_0242a244-c3bf-44e8-930c-74a62bf56adb",
+    "answer": "Si desea comprar una de las ofertas escriba *oferta*\nPara solicitar el listado de precios escriba : Listado",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_1c5effea-909f-4d49-b50e-4470a4b2c1ac",
+          "keyword": [
+            "listado"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b689b83244d4dde90ff3e839eda31595"
+        },
+        {
+          "ref": "ans_352671a0-4907-4f49-88aa-514f888e3ac0",
+          "keyword": "key_1c5effea-909f-4d49-b50e-4470a4b2c1ac",
+          "answer": "",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b1eb3e97d9dd525c1cd9084b30cdbf98"
+        },
+        {
+          "ref": "key_8cee08a2-60a7-449b-b02b-2728caf98e6d",
+          "keyword": [
+            "pedir oferta",
+            "oferta"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "e9bb8bb36a7fe4d2481a93ff322a0eba"
+        },
+        {
+          "ref": "ans_13b4ae6f-5741-481f-922d-7c310add5a3f",
+          "keyword": "key_8cee08a2-60a7-449b-b02b-2728caf98e6d",
+          "answer": "selecciona el nombre de la oferta que te interesa:",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Pata muslo"
+              },
+              {
+                "body": "8 medallones vacunos"
+              },
+              {
+                "body": "bondiola"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_282ae678-cbcf-465c-84a8-23db1387281b",
+                "keyword": [
+                  "Pata muslo"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "3562be22d3182da801a310752e6241b6"
+              },
+              {
+                "ref": "ans_09d3130d-9230-41f3-ac63-84b96306f865",
+                "keyword": "key_282ae678-cbcf-465c-84a8-23db1387281b",
+                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "06c50eaefe62cbbd75d51a28877f2017"
+              },
+              {
+                "ref": "ans_6fff4c66-b270-4902-b74a-5e612b22f87c",
+                "keyword": "ans_09d3130d-9230-41f3-ac63-84b96306f865",
+                "answer": "Genial! Tu precio final por este producto es :0",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "88054ed814c3589ac20a83cc30d24a94"
+              },
+              {
+                "ref": "ans_c7003d20-2f2d-4eba-a1c5-3fb06276b4f9",
+                "keyword": "ans_6fff4c66-b270-4902-b74a-5e612b22f87c",
+                "answer": "desea seguir comprando o ir a pagar?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "pagar"
+                    },
+                    {
+                      "body": "seguir"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "keyword": [
+                        "pago",
+                        "pagar",
+                        "ir a pagar"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+                    },
+                    {
+                      "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                      "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "answer": "por que medio realizara el pago?",
+                      "options": {
+                        "media": null,
+                        "buttons": [
+                          {
+                            "body": "efectivo"
+                          },
+                          {
+                            "body": "online"
+                          }
+                        ],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [
+                          {
+                            "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "keyword": [
+                              "efectivo"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                          },
+                          {
+                            "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                            "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "answer": "Lo espero con los billetes!😃",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                          },
+                          {
+                            "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "keyword": [
+                              "online"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                          },
+                          {
+                            "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                            "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                          }
+                        ],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "9c0b6e3bc4a52ba43f5e9fa75194a10f"
+              },
+              {
+                "ref": "key_87c935f6-78cc-40e8-b38e-a9d96dd8bfdf",
+                "keyword": [
+                  "8 medallones vacunos"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "73a1fffb7d6bd9250e1bc83c722faf18"
+              },
+              {
+                "ref": "ans_6426bb69-dd5a-4756-82ba-2ac9cd68830a",
+                "keyword": "key_87c935f6-78cc-40e8-b38e-a9d96dd8bfdf",
+                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "9aa1f65d57e9f8667c0a62c3e18b79ba"
+              },
+              {
+                "ref": "ans_6759583a-6425-4a02-b7df-4334daf52d2b",
+                "keyword": "ans_6426bb69-dd5a-4756-82ba-2ac9cd68830a",
+                "answer": "Genial! Tu precio final por este producto es :0",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "70864aeab25e8510f2df2301550d0004"
+              },
+              {
+                "ref": "ans_af669487-8297-4752-93f2-d9a637c041c4",
+                "keyword": "ans_6759583a-6425-4a02-b7df-4334daf52d2b",
+                "answer": "desea seguir comprando o ir a pagar?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "pagar"
+                    },
+                    {
+                      "body": "seguir"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "keyword": [
+                        "pago",
+                        "pagar",
+                        "ir a pagar"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+                    },
+                    {
+                      "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                      "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "answer": "por que medio realizara el pago?",
+                      "options": {
+                        "media": null,
+                        "buttons": [
+                          {
+                            "body": "efectivo"
+                          },
+                          {
+                            "body": "online"
+                          }
+                        ],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [
+                          {
+                            "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "keyword": [
+                              "efectivo"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                          },
+                          {
+                            "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                            "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "answer": "Lo espero con los billetes!😃",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                          },
+                          {
+                            "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "keyword": [
+                              "online"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                          },
+                          {
+                            "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                            "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                          }
+                        ],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "351e4f3a9d84ad624329c996a8089e7f"
+              },
+              {
+                "ref": "key_5a3e1bdc-d979-40b0-8e85-9e7ca58a5771",
+                "keyword": [
+                  "Bondiola"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "e6f6d8ab3abcd2408ba19654bb82b8f6"
+              },
+              {
+                "ref": "ans_fddf1b2f-bb66-4905-b385-e9e7bb283eed",
+                "keyword": "key_5a3e1bdc-d979-40b0-8e85-9e7ca58a5771",
+                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "d48b5f201da02c0f150799f42fe79f1a"
+              },
+              {
+                "ref": "ans_fc29ea99-5543-4329-81fd-90993af201c0",
+                "keyword": "ans_fddf1b2f-bb66-4905-b385-e9e7bb283eed",
+                "answer": "Genial! Tu precio final por este producto es :0",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "f6d25dfd07e58acc165ef9180edcb80c"
+              },
+              {
+                "ref": "ans_4eb2a5f6-d476-4a7b-82af-7ff2b17e1be1",
+                "keyword": "ans_fc29ea99-5543-4329-81fd-90993af201c0",
+                "answer": "desea seguir comprando o ir a pagar?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "pagar"
+                    },
+                    {
+                      "body": "seguir"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "keyword": [
+                        "pago",
+                        "pagar",
+                        "ir a pagar"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+                    },
+                    {
+                      "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                      "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                      "answer": "por que medio realizara el pago?",
+                      "options": {
+                        "media": null,
+                        "buttons": [
+                          {
+                            "body": "efectivo"
+                          },
+                          {
+                            "body": "online"
+                          }
+                        ],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [
+                          {
+                            "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "keyword": [
+                              "efectivo"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                          },
+                          {
+                            "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                            "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                            "answer": "Lo espero con los billetes!😃",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                          },
+                          {
+                            "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "keyword": [
+                              "online"
+                            ],
+                            "options": {
+                              "sensitive": false,
+                              "regex": false
+                            },
+                            "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                          },
+                          {
+                            "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                            "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                            "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                            "options": {
+                              "media": null,
+                              "buttons": [],
+                              "capture": false,
+                              "child": null,
+                              "delay": 0,
+                              "nested": [],
+                              "keyword": {},
+                              "callback": false
+                            },
+                            "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                          }
+                        ],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "7762869cd2778f752e19fb8ba983187a"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b6a0070ba09fba1c2492de1c8e0f706c"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fa6330dccbef535164c7f7084b584435",
+    "from": "5493813990948"
+  },
+  {
+    "ref": "11851649-c032-44c5-8dbe-6a0ce872efcf",
+    "keyword": "fa6330dccbef535164c7f7084b584435",
+    "answer": "oferta",
+    "options": {},
+    "from": "5493813990948",
+    "refSerialize": "e26c71206fb8aaa107f7bfc2ac2c0920"
+  },
+  {
+    "ref": "ans_13b4ae6f-5741-481f-922d-7c310add5a3f",
+    "keyword": "key_8cee08a2-60a7-449b-b02b-2728caf98e6d",
+    "answer": "selecciona el nombre de la oferta que te interesa:",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Pata muslo"
+        },
+        {
+          "body": "8 medallones vacunos"
+        },
+        {
+          "body": "bondiola"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_282ae678-cbcf-465c-84a8-23db1387281b",
+          "keyword": [
+            "Pata muslo"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "3562be22d3182da801a310752e6241b6"
+        },
+        {
+          "ref": "ans_09d3130d-9230-41f3-ac63-84b96306f865",
+          "keyword": "key_282ae678-cbcf-465c-84a8-23db1387281b",
+          "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "06c50eaefe62cbbd75d51a28877f2017"
+        },
+        {
+          "ref": "ans_6fff4c66-b270-4902-b74a-5e612b22f87c",
+          "keyword": "ans_09d3130d-9230-41f3-ac63-84b96306f865",
+          "answer": "Genial! Tu precio final por este producto es :0",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "88054ed814c3589ac20a83cc30d24a94"
+        },
+        {
+          "ref": "ans_c7003d20-2f2d-4eba-a1c5-3fb06276b4f9",
+          "keyword": "ans_6fff4c66-b270-4902-b74a-5e612b22f87c",
+          "answer": "desea seguir comprando o ir a pagar?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "pagar"
+              },
+              {
+                "body": "seguir"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                "keyword": [
+                  "pago",
+                  "pagar",
+                  "ir a pagar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+              },
+              {
+                "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                "answer": "por que medio realizara el pago?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "efectivo"
+                    },
+                    {
+                      "body": "online"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                      "keyword": [
+                        "efectivo"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                    },
+                    {
+                      "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                      "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                      "answer": "Lo espero con los billetes!😃",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                    },
+                    {
+                      "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                      "keyword": [
+                        "online"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                    },
+                    {
+                      "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                      "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                      "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9c0b6e3bc4a52ba43f5e9fa75194a10f"
+        },
+        {
+          "ref": "key_87c935f6-78cc-40e8-b38e-a9d96dd8bfdf",
+          "keyword": [
+            "8 medallones vacunos"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "73a1fffb7d6bd9250e1bc83c722faf18"
+        },
+        {
+          "ref": "ans_6426bb69-dd5a-4756-82ba-2ac9cd68830a",
+          "keyword": "key_87c935f6-78cc-40e8-b38e-a9d96dd8bfdf",
+          "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "9aa1f65d57e9f8667c0a62c3e18b79ba"
+        },
+        {
+          "ref": "ans_6759583a-6425-4a02-b7df-4334daf52d2b",
+          "keyword": "ans_6426bb69-dd5a-4756-82ba-2ac9cd68830a",
+          "answer": "Genial! Tu precio final por este producto es :0",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "70864aeab25e8510f2df2301550d0004"
+        },
+        {
+          "ref": "ans_af669487-8297-4752-93f2-d9a637c041c4",
+          "keyword": "ans_6759583a-6425-4a02-b7df-4334daf52d2b",
+          "answer": "desea seguir comprando o ir a pagar?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "pagar"
+              },
+              {
+                "body": "seguir"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                "keyword": [
+                  "pago",
+                  "pagar",
+                  "ir a pagar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+              },
+              {
+                "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                "answer": "por que medio realizara el pago?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "efectivo"
+                    },
+                    {
+                      "body": "online"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                      "keyword": [
+                        "efectivo"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                    },
+                    {
+                      "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                      "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                      "answer": "Lo espero con los billetes!😃",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                    },
+                    {
+                      "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                      "keyword": [
+                        "online"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                    },
+                    {
+                      "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                      "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                      "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "351e4f3a9d84ad624329c996a8089e7f"
+        },
+        {
+          "ref": "key_5a3e1bdc-d979-40b0-8e85-9e7ca58a5771",
+          "keyword": [
+            "Bondiola"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "e6f6d8ab3abcd2408ba19654bb82b8f6"
+        },
+        {
+          "ref": "ans_fddf1b2f-bb66-4905-b385-e9e7bb283eed",
+          "keyword": "key_5a3e1bdc-d979-40b0-8e85-9e7ca58a5771",
+          "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d48b5f201da02c0f150799f42fe79f1a"
+        },
+        {
+          "ref": "ans_fc29ea99-5543-4329-81fd-90993af201c0",
+          "keyword": "ans_fddf1b2f-bb66-4905-b385-e9e7bb283eed",
+          "answer": "Genial! Tu precio final por este producto es :0",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "f6d25dfd07e58acc165ef9180edcb80c"
+        },
+        {
+          "ref": "ans_4eb2a5f6-d476-4a7b-82af-7ff2b17e1be1",
+          "keyword": "ans_fc29ea99-5543-4329-81fd-90993af201c0",
+          "answer": "desea seguir comprando o ir a pagar?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "pagar"
+              },
+              {
+                "body": "seguir"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                "keyword": [
+                  "pago",
+                  "pagar",
+                  "ir a pagar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "a07e16e47d0b2210a103ec4f0faa72ff"
+              },
+              {
+                "ref": "ans_436a3e44-00d4-48ef-8d3e-0cc8fceaeba3",
+                "keyword": "key_75967c82-da14-4650-b5b0-60fbe6b9898b",
+                "answer": "por que medio realizara el pago?",
+                "options": {
+                  "media": null,
+                  "buttons": [
+                    {
+                      "body": "efectivo"
+                    },
+                    {
+                      "body": "online"
+                    }
+                  ],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                      "keyword": [
+                        "efectivo"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+                    },
+                    {
+                      "ref": "ans_96614dfe-7dfa-4b15-84ff-dbd11f291366",
+                      "keyword": "key_5ff8b3d3-ae49-4675-9858-4c47f2e3a13d",
+                      "answer": "Lo espero con los billetes!😃",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "df2488be3d5f6ab95ad432ac60de56a8"
+                    },
+                    {
+                      "ref": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                      "keyword": [
+                        "online"
+                      ],
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "1882266a687359b694cf33c64605e5b2"
+                    },
+                    {
+                      "ref": "ans_f9c189c6-10d6-49f1-950d-156569cfd9af",
+                      "keyword": "key_015b5e86-1565-45b2-b935-0db472d941fc",
+                      "answer": "Espero su comprobante! El monto es: 0, este es el link https://mpago.la/16AGQBt",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "6137974c453df1ca242d655d8bfb1a18"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "434c47e180ba588cd6d08696d4e07f58"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "7762869cd2778f752e19fb8ba983187a"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "b6a0070ba09fba1c2492de1c8e0f706c",
+    "from": "5493813990948"
+  },
+  {
+    "ref": "028ac42e-6316-4c26-8abf-c215669d54bd",
+    "keyword": "b6a0070ba09fba1c2492de1c8e0f706c",
+    "answer": "Pata muslo",
+    "options": {},
+    "from": "5493813990948",
+    "refSerialize": "2acee3e79d955a9ff3af9462ea8b6bf6"
+  },
+  {
+    "ref": "ans_09d3130d-9230-41f3-ac63-84b96306f865",
+    "keyword": "key_282ae678-cbcf-465c-84a8-23db1387281b",
+    "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "06c50eaefe62cbbd75d51a28877f2017",
+    "from": "5493813990948"
+  },
+  {
+    "ref": "a7311702-48a1-45e4-b097-495225bcfaf2",
+    "keyword": "06c50eaefe62cbbd75d51a28877f2017",
+    "answer": "2",
+    "options": {},
+    "from": "5493813990948",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  }
+]
