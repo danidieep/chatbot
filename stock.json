@@ -10,26 +10,26 @@
                         "price":849
                     },
                     {
-                        "name":  "Bondiola x 3kg",
+                        "name":  "Bondiola x 1kg",
                         "price":1399 
                     }],
                 "listado":{
                     "pollo":
                             [
                                 {
-                                    "name":  "Pata x 1kg",
+                                    "name":  "Pata",
                                     "price":1600 
                                 },
                                 {
-                                    "name":  "muslo x 1kg",
+                                    "name":  "muslo",
                                     "price":1999 
                                 },
                                 {
-                                    "name":  "patitas de pollo x kg",
+                                    "name":  "patitas de pollo",
                                     "price":800 
                                 },
                                 {
-                                    "name":  "nuggets x kg",
+                                    "name":  "nuggets",
                                     "price":999 
                                 }
                             ]
@@ -56,19 +56,19 @@
                     ,
                     "vaca":[
                             {
-                                "name":  "entrana x 1kg",
+                                "name":  "entrana",
                                 "price":1600 
                             },
                             {
-                                "name":  "vacio x 1kg",
+                                "name":  "vacio",
                                 "price":1999 
                             },
                             {
-                                "name": "bife x kg",
+                                "name": "bife",
                                 "price":800 
                             },
                             {
-                                "name":  "chorizo x kg",
+                                "name":  "chorizo",
                                 "price":999 
                             }
                         ]

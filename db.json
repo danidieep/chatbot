@@ -1,15 +1,15 @@
 [
   {
-    "ref": "24b208cb-ee31-4ccd-8dd2-ea14aaf32fe7",
-    "keyword": "7ae6361716f1f6c5addc5f4f26dd8a10",
+    "ref": "5c5be3d9-522a-464c-92c1-3b9fc7e8413e",
+    "keyword": "79e7fc16f7fb85373fd25a99390f44c0",
     "answer": "hola",
     "options": {},
     "from": "5493813990947",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_e7fa7981-df24-4c47-b549-29d4ed01f84b",
-    "keyword": "key_3da8c18c-9db7-4397-b133-4d1ace2061ec",
+    "ref": "ans_d6f175d7-3b0c-442d-b647-c8fc5727781b",
+    "keyword": "key_a4c04e8c-96ef-4005-a051-fef691343574",
     "answer": "🙌 Hola bienvenido a *Carnave*",
     "options": {
       "media": null,
@@ -21,300 +21,29 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "acd6d8a4cab738b7be14beecbbfcce06",
+    "refSerialize": "eae77d8a1d519a93f8c0f2cf17359ff2",
     "from": "5493813990947"
   },
   {
-    "ref": "ans_2522fcf4-d205-4a7e-bcb4-b6feb0697e65",
-    "keyword": "ans_e7fa7981-df24-4c47-b549-29d4ed01f84b",
-    "answer": "*Pata muslo x 3kg* el precio es: $1290\n\n*8 medallones vacunos* el precio es: $849\n\n*Bondiola x 3kg* el precio es: $1399\n",
+    "ref": "ans_4cef1dce-68c3-4b69-b68a-c11d1f290485",
+    "keyword": "ans_d6f175d7-3b0c-442d-b647-c8fc5727781b",
+    "answer": "te dejo nuestras ofertas!\n*Pata muslo x 3kg* el precio es: $1290\n,*8 medallones vacunos* el precio es: $849\n,*Bondiola x 3kg* el precio es: $1399\n",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "child": null,
       "delay": 0,
-      "nested": [
-        {
-          "ref": "key_47713b7a-fcc3-4f81-a88a-f26abdd55d47",
-          "keyword": [
-            "pedir oferta",
-            "oferta"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "e9bb8bb36a7fe4d2481a93ff322a0eba"
-        },
-        {
-          "ref": "ans_bf1d30a7-1834-4217-bc74-e8742c3210b8",
-          "keyword": "key_47713b7a-fcc3-4f81-a88a-f26abdd55d47",
-          "answer": "selecciona el nombre de la oferta que te interesa:",
-          "options": {
-            "media": null,
-            "buttons": [
-              {
-                "body": "Pata muslo"
-              },
-              {
-                "body": "8 medallones vacunos"
-              },
-              {
-                "body": "bondiola"
-              }
-            ],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [
-              {
-                "ref": "key_418c7987-b7f0-4d6d-80ae-260405079eaa",
-                "keyword": [
-                  "Pata muslo"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "3562be22d3182da801a310752e6241b6"
-              },
-              {
-                "ref": "ans_3d8b059d-33b8-4c3f-bf49-b9cbb3e36967",
-                "keyword": "key_418c7987-b7f0-4d6d-80ae-260405079eaa",
-                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "f821004bca6d3d11754e015bc7ea4b05"
-              },
-              {
-                "ref": "key_5c0ec80d-0413-4265-a2f2-e0ec7b1d159a",
-                "keyword": [
-                  "8 medallones vacunos"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "73a1fffb7d6bd9250e1bc83c722faf18"
-              },
-              {
-                "ref": "ans_3a45be06-591e-4507-84ed-c28076609ee4",
-                "keyword": "key_5c0ec80d-0413-4265-a2f2-e0ec7b1d159a",
-                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "7f33b034e188ad749dcf6ffc5f893907"
-              },
-              {
-                "ref": "key_16d8158a-2f04-48af-9ad3-441a7d1152e9",
-                "keyword": [
-                  "Bondiola"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "e6f6d8ab3abcd2408ba19654bb82b8f6"
-              },
-              {
-                "ref": "ans_5d8896e0-9330-4bd0-864f-9abfd9827728",
-                "keyword": "key_16d8158a-2f04-48af-9ad3-441a7d1152e9",
-                "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "4630b92105730b40a6007f0499b1884a"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "bfabc39599eb6b1161dfffb71c6334b9"
-        },
-        {
-          "ref": "key_819044f6-b60b-4d37-bace-89343236da0f",
-          "keyword": [
-            "listado"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "b689b83244d4dde90ff3e839eda31595"
-        },
-        {
-          "ref": "ans_bfcef05b-183f-4985-b97b-d120a210b502",
-          "keyword": "key_819044f6-b60b-4d37-bace-89343236da0f",
-          "answer": "A continuacion escriba que producto le interesa? *Cerdo*, *Pollo*, *Vaca* o *Pescado*",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [
-              {
-                "ref": "key_eb20fb71-497e-4ef9-ab9e-51f02bd00c67",
-                "keyword": "cerdo",
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "bef1d4fd7313ecf52124b8c550e9f53a"
-              },
-              {
-                "ref": "ans_24787755-ff62-498e-b6b3-fd519eaf6911",
-                "keyword": "key_eb20fb71-497e-4ef9-ab9e-51f02bd00c67",
-                "answer": "a continuacion indica el nombre del producto que le interesa:\n*costeleta* el precio es: $1600, por KILO\n,*bondiola* el precio es: $1999, por KILO\n,*ribs* el precio es: $800, por KILO\n,*pata de chancho* el precio es: $999, por KILO\n",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "cc8c8db968324f08bb44a29091421a2d"
-              },
-              {
-                "ref": "ans_15fc4988-d512-416c-b583-dd3334e9490a",
-                "keyword": "ans_24787755-ff62-498e-b6b3-fd519eaf6911",
-                "answer": "asdadasdaddada",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 2500,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "cdd4ed580c4ed3686fd625eac9ac8f3c"
-              },
-              {
-                "ref": "key_7cd352d5-4bec-4401-9553-4719588d486b",
-                "keyword": [
-                  "vaca"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "91e353c9d5529d34a29e62d80fb4f9a3"
-              },
-              {
-                "ref": "ans_08e7eaba-d60c-462a-a2de-caf984aa7b02",
-                "keyword": "key_7cd352d5-4bec-4401-9553-4719588d486b",
-                "answer": "a continuacion indica el nombre del producto que le interesa:\n*entrana x 1kg* el precio es: $1600\n,*vacio x 1kg* el precio es: $1999\n,*bife x kg* el precio es: $800\n,*chorizo x kg* el precio es: $999\n",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "7fc72b213e22e827c1e2f74d35bb7743"
-              },
-              {
-                "ref": "key_2d1ba9cf-eb9c-4ca7-b90a-b3a00681284f",
-                "keyword": [
-                  "pollo"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "d10317e23a4a9f59e4665106e50d33e8"
-              },
-              {
-                "ref": "ans_01682c97-2a0a-433b-95ae-f959a9d2dc58",
-                "keyword": "key_2d1ba9cf-eb9c-4ca7-b90a-b3a00681284f",
-                "answer": "a continuacion indica el nombre del producto que le interesa:\n*Pata x 1kg* el precio es: $1600\n,*muslo x 1kg* el precio es: $1999\n,*patitas de pollo x kg* el precio es: $800\n,*nuggets x kg* el precio es: $999\n",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "46bbe5b4c0024552f78d054d26f13b0f"
-              },
-              {
-                "ref": "key_97988217-ff96-47ea-8a22-f09fc46f080e",
-                "keyword": [
-                  "Pescado"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "3ed74077fd4bd81b496d95cf5a695bf6"
-              },
-              {
-                "ref": "ans_58b5a96f-770e-4ff2-b6c0-b7e58105c893",
-                "keyword": "key_97988217-ff96-47ea-8a22-f09fc46f080e",
-                "answer": "a continuacion indica el nombre del producto que le interesa:\n() => {\r\n  let lista = getListado();\r\n  let pescado = lista.pescado.map((e) => {\r\n    return `*${e.name}* el precio es: $${e.price}\\n`;\r\n  });\r\n  return pescado;\r\n}",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "801279f4ade6886cce5809a873a47d60"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "de070645609bba754d4bcc3e722aeb79"
-        }
-      ],
+      "nested": [],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "75e7a1e25cccd8e7ce2ba76bbc6d4acb",
+    "refSerialize": "4449658e0d77e705c77bafd664f9e323",
     "from": "5493813990947"
   },
   {
-    "ref": "ans_a471619e-19f8-44de-ba24-8f6c7d807de6",
-    "keyword": "ans_2522fcf4-d205-4a7e-bcb4-b6feb0697e65",
+    "ref": "ans_f3378860-b898-4aef-bfd5-f11346636500",
+    "keyword": "ans_4cef1dce-68c3-4b69-b68a-c11d1f290485",
     "answer": "Si desea comprar una de las ofertas escriba *oferta*\nPara solicitar el listado de precios escriba : Listado",
     "options": {
       "media": null,
@@ -324,7 +53,7 @@
       "delay": 0,
       "nested": [
         {
-          "ref": "key_819044f6-b60b-4d37-bace-89343236da0f",
+          "ref": "key_ce92b2e4-f5f4-4ed0-9b24-2c71bc4a5d74",
           "keyword": [
             "listado"
           ],
@@ -335,146 +64,23 @@
           "refSerialize": "b689b83244d4dde90ff3e839eda31595"
         },
         {
-          "ref": "ans_bfcef05b-183f-4985-b97b-d120a210b502",
-          "keyword": "key_819044f6-b60b-4d37-bace-89343236da0f",
+          "ref": "ans_2b2b8eaf-266b-4cae-8e6c-41a7ebef299f",
+          "keyword": "key_ce92b2e4-f5f4-4ed0-9b24-2c71bc4a5d74",
           "answer": "A continuacion escriba que producto le interesa? *Cerdo*, *Pollo*, *Vaca* o *Pescado*",
           "options": {
             "media": null,
             "buttons": [],
-            "capture": false,
+            "capture": true,
             "child": null,
             "delay": 0,
-            "nested": [
-              {
-                "ref": "key_eb20fb71-497e-4ef9-ab9e-51f02bd00c67",
-                "keyword": "cerdo",
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "bef1d4fd7313ecf52124b8c550e9f53a"
-              },
-              {
-                "ref": "ans_24787755-ff62-498e-b6b3-fd519eaf6911",
-                "keyword": "key_eb20fb71-497e-4ef9-ab9e-51f02bd00c67",
-                "answer": "a continuacion indica el nombre del producto que le interesa:\n*costeleta* el precio es: $1600, por KILO\n,*bondiola* el precio es: $1999, por KILO\n,*ribs* el precio es: $800, por KILO\n,*pata de chancho* el precio es: $999, por KILO\n",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "cc8c8db968324f08bb44a29091421a2d"
-              },
-              {
-                "ref": "ans_15fc4988-d512-416c-b583-dd3334e9490a",
-                "keyword": "ans_24787755-ff62-498e-b6b3-fd519eaf6911",
-                "answer": "asdadasdaddada",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 2500,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "cdd4ed580c4ed3686fd625eac9ac8f3c"
-              },
-              {
-                "ref": "key_7cd352d5-4bec-4401-9553-4719588d486b",
-                "keyword": [
-                  "vaca"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "91e353c9d5529d34a29e62d80fb4f9a3"
-              },
-              {
-                "ref": "ans_08e7eaba-d60c-462a-a2de-caf984aa7b02",
-                "keyword": "key_7cd352d5-4bec-4401-9553-4719588d486b",
-                "answer": "a continuacion indica el nombre del producto que le interesa:\n*entrana x 1kg* el precio es: $1600\n,*vacio x 1kg* el precio es: $1999\n,*bife x kg* el precio es: $800\n,*chorizo x kg* el precio es: $999\n",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "7fc72b213e22e827c1e2f74d35bb7743"
-              },
-              {
-                "ref": "key_2d1ba9cf-eb9c-4ca7-b90a-b3a00681284f",
-                "keyword": [
-                  "pollo"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "d10317e23a4a9f59e4665106e50d33e8"
-              },
-              {
-                "ref": "ans_01682c97-2a0a-433b-95ae-f959a9d2dc58",
-                "keyword": "key_2d1ba9cf-eb9c-4ca7-b90a-b3a00681284f",
-                "answer": "a continuacion indica el nombre del producto que le interesa:\n*Pata x 1kg* el precio es: $1600\n,*muslo x 1kg* el precio es: $1999\n,*patitas de pollo x kg* el precio es: $800\n,*nuggets x kg* el precio es: $999\n",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "46bbe5b4c0024552f78d054d26f13b0f"
-              },
-              {
-                "ref": "key_97988217-ff96-47ea-8a22-f09fc46f080e",
-                "keyword": [
-                  "Pescado"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "3ed74077fd4bd81b496d95cf5a695bf6"
-              },
-              {
-                "ref": "ans_58b5a96f-770e-4ff2-b6c0-b7e58105c893",
-                "keyword": "key_97988217-ff96-47ea-8a22-f09fc46f080e",
-                "answer": "a continuacion indica el nombre del producto que le interesa:\n() => {\r\n  let lista = getListado();\r\n  let pescado = lista.pescado.map((e) => {\r\n    return `*${e.name}* el precio es: $${e.price}\\n`;\r\n  });\r\n  return pescado;\r\n}",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "801279f4ade6886cce5809a873a47d60"
-              }
-            ],
+            "nested": [],
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "de070645609bba754d4bcc3e722aeb79"
+          "refSerialize": "cfbce403fadec108af54f739a95e9225"
         },
         {
-          "ref": "key_47713b7a-fcc3-4f81-a88a-f26abdd55d47",
+          "ref": "key_514cf288-7a8d-4ae3-a32a-ce64a15fd70e",
           "keyword": [
             "pedir oferta",
             "oferta"
@@ -486,8 +92,8 @@
           "refSerialize": "e9bb8bb36a7fe4d2481a93ff322a0eba"
         },
         {
-          "ref": "ans_bf1d30a7-1834-4217-bc74-e8742c3210b8",
-          "keyword": "key_47713b7a-fcc3-4f81-a88a-f26abdd55d47",
+          "ref": "ans_66a0a766-fb3d-4a3e-90ff-b4883ba6646d",
+          "keyword": "key_514cf288-7a8d-4ae3-a32a-ce64a15fd70e",
           "answer": "selecciona el nombre de la oferta que te interesa:",
           "options": {
             "media": null,
@@ -507,7 +113,7 @@
             "delay": 0,
             "nested": [
               {
-                "ref": "key_418c7987-b7f0-4d6d-80ae-260405079eaa",
+                "ref": "key_700b3ac8-e0a5-4577-b25f-23803fcaa694",
                 "keyword": [
                   "Pata muslo"
                 ],
@@ -518,8 +124,8 @@
                 "refSerialize": "3562be22d3182da801a310752e6241b6"
               },
               {
-                "ref": "ans_3d8b059d-33b8-4c3f-bf49-b9cbb3e36967",
-                "keyword": "key_418c7987-b7f0-4d6d-80ae-260405079eaa",
+                "ref": "ans_6b17eea3-7c09-43f8-a98a-07b039eea4f8",
+                "keyword": "key_700b3ac8-e0a5-4577-b25f-23803fcaa694",
                 "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
                 "options": {
                   "media": null,
@@ -531,10 +137,10 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "f821004bca6d3d11754e015bc7ea4b05"
+                "refSerialize": "ed9c6e9d2cfcbdae8dc40cb526d7a25c"
               },
               {
-                "ref": "key_5c0ec80d-0413-4265-a2f2-e0ec7b1d159a",
+                "ref": "key_10e2481a-f50f-49b0-85a3-133ce4eac173",
                 "keyword": [
                   "8 medallones vacunos"
                 ],
@@ -545,8 +151,8 @@
                 "refSerialize": "73a1fffb7d6bd9250e1bc83c722faf18"
               },
               {
-                "ref": "ans_3a45be06-591e-4507-84ed-c28076609ee4",
-                "keyword": "key_5c0ec80d-0413-4265-a2f2-e0ec7b1d159a",
+                "ref": "ans_7f99acfc-da22-4639-afa5-64e0d9d23c1f",
+                "keyword": "key_10e2481a-f50f-49b0-85a3-133ce4eac173",
                 "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
                 "options": {
                   "media": null,
@@ -558,10 +164,10 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "7f33b034e188ad749dcf6ffc5f893907"
+                "refSerialize": "1469240f75ca6091d43405796c0f0e63"
               },
               {
-                "ref": "key_16d8158a-2f04-48af-9ad3-441a7d1152e9",
+                "ref": "key_61c9d33f-863d-4f80-817a-9a1280d7f5b6",
                 "keyword": [
                   "Bondiola"
                 ],
@@ -572,8 +178,8 @@
                 "refSerialize": "e6f6d8ab3abcd2408ba19654bb82b8f6"
               },
               {
-                "ref": "ans_5d8896e0-9330-4bd0-864f-9abfd9827728",
-                "keyword": "key_16d8158a-2f04-48af-9ad3-441a7d1152e9",
+                "ref": "ans_fd708595-b00c-4b97-9bab-65694595b55b",
+                "keyword": "key_61c9d33f-863d-4f80-817a-9a1280d7f5b6",
                 "answer": "a continuacion indica cuantas promociones quiere, solo caracteres numericos!:",
                 "options": {
                   "media": null,
@@ -585,180 +191,57 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "4630b92105730b40a6007f0499b1884a"
+                "refSerialize": "5dc591cb295dc24e70f1453684414d8d"
               }
             ],
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "bfabc39599eb6b1161dfffb71c6334b9"
+          "refSerialize": "26b0e5b0e25b9fbeae4bcb64f9475413"
         }
       ],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "c5cfe6f5b9501a171c1e5bb243150b22",
+    "refSerialize": "67b12ba9e5e615ade1e99c4a810980e8",
     "from": "5493813990947"
   },
   {
-    "ref": "5dd2ecd3-56fc-4945-977e-f25cb9fd657a",
-    "keyword": "c5cfe6f5b9501a171c1e5bb243150b22",
+    "ref": "75ecbd44-7535-4cf8-8639-2e419ae4032b",
+    "keyword": "67b12ba9e5e615ade1e99c4a810980e8",
     "answer": "listado",
     "options": {},
     "from": "5493813990947",
     "refSerialize": "58a626ff14a004545c4d7f79b2e85d65"
   },
   {
-    "ref": "ans_bfcef05b-183f-4985-b97b-d120a210b502",
-    "keyword": "key_819044f6-b60b-4d37-bace-89343236da0f",
+    "ref": "ans_2b2b8eaf-266b-4cae-8e6c-41a7ebef299f",
+    "keyword": "key_ce92b2e4-f5f4-4ed0-9b24-2c71bc4a5d74",
     "answer": "A continuacion escriba que producto le interesa? *Cerdo*, *Pollo*, *Vaca* o *Pescado*",
     "options": {
       "media": null,
       "buttons": [],
-      "capture": false,
+      "capture": true,
       "child": null,
       "delay": 0,
-      "nested": [
-        {
-          "ref": "key_eb20fb71-497e-4ef9-ab9e-51f02bd00c67",
-          "keyword": "cerdo",
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "bef1d4fd7313ecf52124b8c550e9f53a"
-        },
-        {
-          "ref": "ans_24787755-ff62-498e-b6b3-fd519eaf6911",
-          "keyword": "key_eb20fb71-497e-4ef9-ab9e-51f02bd00c67",
-          "answer": "a continuacion indica el nombre del producto que le interesa:\n*costeleta* el precio es: $1600, por KILO\n,*bondiola* el precio es: $1999, por KILO\n,*ribs* el precio es: $800, por KILO\n,*pata de chancho* el precio es: $999, por KILO\n",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "cc8c8db968324f08bb44a29091421a2d"
-        },
-        {
-          "ref": "ans_15fc4988-d512-416c-b583-dd3334e9490a",
-          "keyword": "ans_24787755-ff62-498e-b6b3-fd519eaf6911",
-          "answer": "asdadasdaddada",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 2500,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "cdd4ed580c4ed3686fd625eac9ac8f3c"
-        },
-        {
-          "ref": "key_7cd352d5-4bec-4401-9553-4719588d486b",
-          "keyword": [
-            "vaca"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "91e353c9d5529d34a29e62d80fb4f9a3"
-        },
-        {
-          "ref": "ans_08e7eaba-d60c-462a-a2de-caf984aa7b02",
-          "keyword": "key_7cd352d5-4bec-4401-9553-4719588d486b",
-          "answer": "a continuacion indica el nombre del producto que le interesa:\n*entrana x 1kg* el precio es: $1600\n,*vacio x 1kg* el precio es: $1999\n,*bife x kg* el precio es: $800\n,*chorizo x kg* el precio es: $999\n",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "7fc72b213e22e827c1e2f74d35bb7743"
-        },
-        {
-          "ref": "key_2d1ba9cf-eb9c-4ca7-b90a-b3a00681284f",
-          "keyword": [
-            "pollo"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "d10317e23a4a9f59e4665106e50d33e8"
-        },
-        {
-          "ref": "ans_01682c97-2a0a-433b-95ae-f959a9d2dc58",
-          "keyword": "key_2d1ba9cf-eb9c-4ca7-b90a-b3a00681284f",
-          "answer": "a continuacion indica el nombre del producto que le interesa:\n*Pata x 1kg* el precio es: $1600\n,*muslo x 1kg* el precio es: $1999\n,*patitas de pollo x kg* el precio es: $800\n,*nuggets x kg* el precio es: $999\n",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "46bbe5b4c0024552f78d054d26f13b0f"
-        },
-        {
-          "ref": "key_97988217-ff96-47ea-8a22-f09fc46f080e",
-          "keyword": [
-            "Pescado"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "3ed74077fd4bd81b496d95cf5a695bf6"
-        },
-        {
-          "ref": "ans_58b5a96f-770e-4ff2-b6c0-b7e58105c893",
-          "keyword": "key_97988217-ff96-47ea-8a22-f09fc46f080e",
-          "answer": "a continuacion indica el nombre del producto que le interesa:\n() => {\r\n  let lista = getListado();\r\n  let pescado = lista.pescado.map((e) => {\r\n    return `*${e.name}* el precio es: $${e.price}\\n`;\r\n  });\r\n  return pescado;\r\n}",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "801279f4ade6886cce5809a873a47d60"
-        }
-      ],
+      "nested": [],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "de070645609bba754d4bcc3e722aeb79",
+    "refSerialize": "cfbce403fadec108af54f739a95e9225",
     "from": "5493813990947"
   },
   {
-    "ref": "ad62d7cb-205c-46c2-b4f2-1037938e7a74",
-    "keyword": "de070645609bba754d4bcc3e722aeb79",
+    "ref": "5e53f56a-c911-4fe2-80d6-07c2739d6304",
+    "keyword": "cfbce403fadec108af54f739a95e9225",
     "answer": "cerdo",
     "options": {},
     "from": "5493813990947",
     "refSerialize": "b200956451928de9d68845936cb6845b"
   },
   {
-    "ref": "ans_24787755-ff62-498e-b6b3-fd519eaf6911",
-    "keyword": "key_eb20fb71-497e-4ef9-ab9e-51f02bd00c67",
+    "ref": "ans_d61d9e77-318a-4e56-88d6-98fb607dedf9",
+    "keyword": "key_1a06a436-357e-4d8b-a42c-6bdfd4eaef0f",
     "answer": "a continuacion indica el nombre del producto que le interesa:\n*costeleta* el precio es: $1600, por KILO\n,*bondiola* el precio es: $1999, por KILO\n,*ribs* el precio es: $800, por KILO\n,*pata de chancho* el precio es: $999, por KILO\n",
     "options": {
       "media": null,
@@ -770,26 +253,360 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "cc8c8db968324f08bb44a29091421a2d",
+    "refSerialize": "65cc35830281a9d17fa75beb4e1f570d",
     "from": "5493813990947"
   },
   {
-    "ref": "eb46bb38-7b6d-4465-a442-1b886d2dedf5",
-    "keyword": "cc8c8db968324f08bb44a29091421a2d",
+    "ref": "a1bbf040-3683-4603-a35d-8b42309a677b",
+    "keyword": "65cc35830281a9d17fa75beb4e1f570d",
     "answer": "ribs",
     "options": {},
     "from": "5493813990947",
     "refSerialize": "7ae6361716f1f6c5addc5f4f26dd8a10"
   },
   {
-    "ref": "5860a431-f36c-4059-bd8d-8c2c4ca8a5fa",
-    "answer": "genial",
+    "ref": "2cf36ae8-5d38-4a1c-88ef-2c631b58b068",
+    "answer": "Genial! a continuacion indica cuantos kgs de ribs quiere",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false
     },
     "from": "5493813990947",
-    "refSerialize": "17473347d07acb9cba76845c5b5f0731"
+    "refSerialize": "3c9fde304263851de3ee2fdcdff20922"
+  },
+  {
+    "ref": "ans_12099a16-96e5-480f-a10a-5fcd9903ea84",
+    "keyword": "ans_d61d9e77-318a-4e56-88d6-98fb607dedf9",
+    "answer": " solo caracteres numericos!:",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "60da22ed43b4aadc4907b95b8824fe24",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "30586593-ff8f-4ea0-a8f1-0500d7abd877",
+    "keyword": "60da22ed43b4aadc4907b95b8824fe24",
+    "answer": "2",
+    "options": {},
+    "from": "5493813990947",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "be2e76d1-c166-4120-8992-22e3dca54c8d",
+    "answer": "Genial! tu precio por este producto es 1600, si desea continuar comprando escriba *continuar*, si quiere ir a pagar escriba *pagar*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493813990947",
+    "refSerialize": "4c86f5fcf6368734738a498c467d568e"
+  },
+  {
+    "ref": "98ae6e0a-66ee-49c0-bdc7-ff36d424bd87",
+    "keyword": "2294c3d08b53a6effa5df696a15b9d30",
+    "answer": "continuar",
+    "options": {},
+    "from": "5493813990947",
+    "refSerialize": "17138ca286e04f8331fba292fef712d7"
+  },
+  {
+    "ref": "ans_c3941392-533c-4ce3-a60f-16de2772f83f",
+    "keyword": "key_533edb13-fc98-42f9-984a-b72a85dd87a0",
+    "answer": "🙌 Seleccione que quiere ver:",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "5c3afcda87c7d50bd12d5afd869000b9",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "ans_15903bb2-3c4c-4e4c-b8cb-0210dab4a346",
+    "keyword": "ans_c3941392-533c-4ce3-a60f-16de2772f83f",
+    "answer": "Si desea comprar una de las ofertas escriba *oferta*\nPara solicitar el listado de precios escriba : *Listado*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "4cdec9f1e494acfe0410b1048af0afee",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "3ff1cf5c-73b6-47b1-a32c-bd28d8f09267",
+    "keyword": "4cdec9f1e494acfe0410b1048af0afee",
+    "answer": "listado",
+    "options": {},
+    "from": "5493813990947",
+    "refSerialize": "58a626ff14a004545c4d7f79b2e85d65"
+  },
+  {
+    "ref": "ans_2b2b8eaf-266b-4cae-8e6c-41a7ebef299f",
+    "keyword": "key_ce92b2e4-f5f4-4ed0-9b24-2c71bc4a5d74",
+    "answer": "A continuacion escriba que producto le interesa? *Cerdo*, *Pollo*, *Vaca* o *Pescado*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "aeee0879cc5a6266ae165b73535751c6",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "d005bd44-35ac-4d45-bca0-55c8b8c08934",
+    "keyword": "aeee0879cc5a6266ae165b73535751c6",
+    "answer": "pollo",
+    "options": {},
+    "from": "5493813990947",
+    "refSerialize": "e2a484b42e3294c0e8227d4cfcc55d61"
+  },
+  {
+    "ref": "ans_8bf60357-3762-4fda-b752-82a79240bd4e",
+    "keyword": "key_e0ec8856-e2d2-4f05-8703-e1eace2afe1f",
+    "answer": "a continuacion indica el nombre del producto que le interesa:\n*Pata x 1kg* el precio es: $1600\n,*muslo x 1kg* el precio es: $1999\n,*patitas de pollo x kg* el precio es: $800\n,*nuggets x kg* el precio es: $999\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d9802bee135252f980759f6a3f3c2f33",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "925e2f39-4ed0-440f-a399-1856e3ec7439",
+    "keyword": "d9802bee135252f980759f6a3f3c2f33",
+    "answer": "nuggets x kg",
+    "options": {},
+    "from": "5493813990947",
+    "refSerialize": "93de19a4d2bf1ab6497d2196550a188a"
+  },
+  {
+    "ref": "57c65c9d-efb1-436f-bcf4-6485fb5cddb9",
+    "answer": "Genial! a continuacion indica cuantos kgs de nuggets x kg quiere",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493813990947",
+    "refSerialize": "593acffd30bdc13954ecb11afcfd0ec3"
+  },
+  {
+    "ref": "ans_a1a1b0fb-bd9a-4a8c-8030-561afd3e8d26",
+    "keyword": "ans_8bf60357-3762-4fda-b752-82a79240bd4e",
+    "answer": " solo caracteres numericos!:",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "b1432484a7e3dd07a7b754a060079bbb",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "e0235de8-5b6d-4b15-9511-a62a68cee627",
+    "keyword": "b1432484a7e3dd07a7b754a060079bbb",
+    "answer": "5",
+    "options": {},
+    "from": "5493813990947",
+    "refSerialize": "d2b414a4bc0b3490276097c7513b4c8c"
+  },
+  {
+    "ref": "ba79be45-022b-47e4-88f5-93ca2196e664",
+    "answer": "Genial! tu precio por este producto es 4995, si desea continuar comprando escriba *continuar*, si quiere ir a pagar escriba *pagar*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493813990947",
+    "refSerialize": "b3d42a3cf178f585aa129a0c8f853f36"
+  },
+  {
+    "ref": "4a0fd7e2-833a-49b7-ac0a-ac717db2a60c",
+    "keyword": "d2b414a4bc0b3490276097c7513b4c8c",
+    "answer": "pagar",
+    "options": {},
+    "from": "5493813990947",
+    "refSerialize": "06f1b5fc5ffcf1fa98c7802a62d3caea"
+  },
+  {
+    "ref": "ans_9c33be91-43b9-493c-98f5-e15d78d23f44",
+    "keyword": "key_78278a32-9a37-495a-ae84-1e7fe2c892d0",
+    "answer": "Tu total es:",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "a23429341c4c5f9a713d6f14d50d4594",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "25b3e830-6a49-4715-aa0d-04ce19ed8d0a",
+    "answer": "$ 6595",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493813990947",
+    "refSerialize": "91a99cc417cfa7053e8319952b2c6c5c"
+  },
+  {
+    "ref": "ans_a3a69480-972e-443d-b160-ddebfe52f2e7",
+    "keyword": "ans_9c33be91-43b9-493c-98f5-e15d78d23f44",
+    "answer": "por que medio quiere pagar?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "efectivo"
+        },
+        {
+          "body": "online"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_c1eada76-216a-44a2-92e3-9688163dd349",
+          "keyword": [
+            "efectivo"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "32f46d8c5af9a706b7e35030a1993997"
+        },
+        {
+          "ref": "ans_920b8528-fcd5-454f-94e9-6a72f9a6238a",
+          "keyword": "key_c1eada76-216a-44a2-92e3-9688163dd349",
+          "answer": "Lo espero con los billetes!😃",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "51d2fd94bdebeb892a9288363176de64"
+        },
+        {
+          "ref": "key_44db87de-074a-49ce-8adb-d143681e2593",
+          "keyword": [
+            "online"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "1882266a687359b694cf33c64605e5b2"
+        },
+        {
+          "ref": "ans_c8e60566-694b-46f5-8f57-dae1ded49cde",
+          "keyword": "key_44db87de-074a-49ce-8adb-d143681e2593",
+          "answer": "Espero su comprobante! ",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d586acd7dea76e446bf672451276c567"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "71a8e354bef614339e7b5c08ba02c6ab",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "7105dad3-5efe-4885-a2aa-ce8a9072ee9c",
+    "keyword": "71a8e354bef614339e7b5c08ba02c6ab",
+    "answer": "online",
+    "options": {},
+    "from": "5493813990947",
+    "refSerialize": "5c66c25aaded9e81843d91bb6d5123d9"
+  },
+  {
+    "ref": "ans_c8e60566-694b-46f5-8f57-dae1ded49cde",
+    "keyword": "key_44db87de-074a-49ce-8adb-d143681e2593",
+    "answer": "Espero su comprobante! ",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d586acd7dea76e446bf672451276c567",
+    "from": "5493813990947"
+  },
+  {
+    "ref": "a0ce2bd3-ae44-45fe-a1d6-77e5d22ebc77",
+    "answer": "El monto es:$6595 , este es el link https://mpago.la/16AGQBt",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493813990947",
+    "refSerialize": "b18c15481373ff740dd174df211eddfa"
   }
 ]

@@ -1,0 +1,233 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3A89367683AEA98483CD',
+    participant: undefined
+  },
+  messageTimestamp: 1677271670,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3A6C7AFCD1AD85AAC69A',
+    participant: undefined
+  },
+  messageTimestamp: 1677271678,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'listado',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'listado',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3A11D9CC4FD5CE4A9CEB',
+    participant: undefined
+  },
+  messageTimestamp: 1677271685,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'cerdo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cerdo',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF2225CAA2DCA92E059',
+    participant: undefined
+  },
+  messageTimestamp: 1677271694,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'ribs',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'ribs',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3AA9662EC1A601E6729A',
+    participant: undefined
+  },
+  messageTimestamp: 1677271699,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3A9EC6CA79335EC6D942',
+    participant: undefined
+  },
+  messageTimestamp: 1677271703,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'continuar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'continuar',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3AA2A95F65F67163AACA',
+    participant: undefined
+  },
+  messageTimestamp: 1677271705,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'listado',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'listado',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3AEB9B3D151C68326129',
+    participant: undefined
+  },
+  messageTimestamp: 1677271709,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'pollo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'pollo',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3A83500CA3535873FEF8',
+    participant: undefined
+  },
+  messageTimestamp: 1677271718,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'nuggets x kg',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'nuggets x kg',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3ADE2CB511EEFD9CA114',
+    participant: undefined
+  },
+  messageTimestamp: 1677271721,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: '5',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '5',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE7D335F693A3EA7A9F',
+    participant: undefined
+  },
+  messageTimestamp: 1677271725,
+  pushName: 'Dani Dip',
+  message: Message {
+    conversation: 'pagar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'pagar',
+  from: '5493813990947'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493813990947@s.whatsapp.net',
+    fromMe: false,
+    id: '3AB544B661DA19D036C5',
+    participant: undefined
+  },
+  messageTimestamp: 1677271729,
+  pushName: 'Dani Dip',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'online',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'online',
+  from: '5493813990947'
+}
