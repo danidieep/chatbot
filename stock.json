@@ -37,19 +37,19 @@
                     ,
                     "cerdo":[
                             {
-                                "name":  "costeleta x 1kg",
+                                "name":  "costeleta",
                                 "price":1600 
                             },
                             {
-                                "name":  "bondiola x 1kg",
+                                "name":  "bondiola",
                                 "price":1999 
                             },
                             {
-                                "name": "ribs x kg",
+                                "name": "ribs",
                                 "price":800 
                             },
                             {
-                                "name":  "pata de chancho x kg",
+                                "name":  "pata de chancho",
                                 "price":999 
                             }
                         ]
